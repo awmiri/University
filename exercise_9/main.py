@@ -50,7 +50,7 @@ def exitAndSave ():
         root.destroy()
     
 def deleteContact ():
-    if messagebox.askyesno("confirm delete" , "are you sure for exit ?"):
+    if messagebox.askyesno("confirm delete" , "are you sure for delet ?"):
         selectedIndex =listOfContact.curselection()
         selectedSearchIndex =listSearch.curselection()
 
